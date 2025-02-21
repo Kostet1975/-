@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Для моей любимки</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section id="step1">
+      <button id="startBtn" class="button">Нажми на меня</button>
+    </section>
+
+    <section id="step2" class="hidden">
+      <h1>Дорогая моя Зайка</h1>
+      <p>Хочу поздравить тебя с твоим персональным праздником!🎉 <br>Пусть в этот день принесет тебе море радости, теплые улыбки и самые приятные моменты.<br>Оставайся таким же красивым и милым котенком, окруженным любовью, счастьем и удачей.<br> Пусть все мечты сбываются, а каждый день приносит новый повод для радости!💖🎂✨</p>
+      <button id="nextBtn1" class="button">Нажми еще))</button>
+    </section>
+
+<section id="step3" class="hidden">
+      <p>Люблю тебя, моё сокровище <img class="pocelui" src="1.png"></p>
+      <table id="songTable">
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Действие</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-src="1.mp3">
+            <td>1</td>
+            <td><button class="playBtn">Воспроизвести</button></td>
+          </tr>
+          <tr data-src="deaf - sunset city.mp3">
+            <td>deaf - sunset city</td>
+            <td><button class="playBtn">Воспроизвести</button></td>
+          </tr>
+          <tr data-src="Giwmik - Дубай.mp3">
+            <td>Giwmik - Дубай</td>
+            <td><button class="playBtn">Воспроизвести</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <audio id="musicPlayer" controls>
+        <source id="audioSource" src="song1.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает элемент audio.
+      </audio>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
